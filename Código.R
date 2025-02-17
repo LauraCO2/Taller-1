@@ -1,6 +1,11 @@
-rm(list = ls())
-# Cargar paquetes
-
+"""
+Este código tiene la función de cargar, transformar y acortar un base de datos, teniendo también la 
+funcionalidad de agrupar bases de datos y transformarla para poder exportarlo en un excel, para esto 
+se tomo como ayuda las diferentes librerias.
+authors: Juliana López Morales
+Laura Camila Otalora
+Isabella Perilla
+"""
 library(dplyr)
 library(tidyr)
 library(haven)
